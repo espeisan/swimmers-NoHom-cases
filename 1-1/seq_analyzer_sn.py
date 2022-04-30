@@ -214,7 +214,7 @@ for R in range(len(rewID)):
              return 0
 
          gammalist = [0.999,0.99,0.95,0.9,0.7,0.1] #0.96
-         alphalist = [1.0,0.5,0.1]
+         alphalist = [0.1,0.3,0.5,0.8,1.0]
 
          replay_step = 10000*(nqlsteps-1)
 
